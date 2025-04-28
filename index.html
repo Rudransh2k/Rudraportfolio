@@ -2,17 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rudransh Raj Heera | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header / Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <img src="https://rudransh2k.github.io/Rudraportfolio/assets/images/profile.jpg" alt="Rudransh Raj Heera" class="profile-img">
+        <div>
+          <h2>Hello, I'm</h2>
+          <h1>Rudransh Raj Heera</h1>
+          <h3>Computer Science Engineer | AI & ML Enthusiast</h3>
+          <div class="header-actions">
+            <a href="mailto:heerarudransh@gmail.com" class="btn">Contact Me</a>
+            <!-- Add Resume link if available -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-<header>
-  <div class="container">
-    <h1>Rudransh Raj Heera</h1>
-    <nav>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -22,93 +37,118 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </nav>
-  </div>
-</header>
+    </div>
+  </nav>
 
-<section class="hero">
-  <div class="container">
-    <h2>Hi, I'm Rudransh Raj Heera</h2>
-    <p>AI Enthusiast | Machine Learning Engineer | Developer</p>
-  </div>
-</section>
-
-<main>
-
-  <section id="about" class="section fade-in">
-    <h2>About Me</h2>
-    <p>Computer Science Engineer passionate about AI, Machine Learning, and Software Development. A problem-solver and a team player eager to create impactful solutions.</p>
-  </section>
-
-  <section id="skills" class="section fade-in">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div>Python</div>
-      <div>C++</div>
-      <div>Java</div>
-      <div>TensorFlow</div>
-      <div>PyTorch</div>
-      <div>OpenCV</div>
-      <div>Scikit-Learn</div>
-      <div>Matlab</div>
-      <div>MySQL</div>
-      <div>Point Cloud Library</div>
+  <!-- About Me Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <h3>Rudransh Raj Heera</h3>
+      <h4>Computer Science Engineer</h4>
+      <p>
+        Passionate about AI, Machine Learning, and Software Development. A problem-solver and a team player eager to create impactful solutions.
+      </p>
     </div>
   </section>
 
-  <section id="projects" class="section fade-in">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>AI-Powered Image Recognition System</h3>
-      <p>Developed a CNN-based image classification system using Python, TensorFlow, OpenCV, and Flask.</p>
+  <!-- Skills Section -->
+  <section id="skills" class="section bg-light">
+    <div class="container">
+      <h2>My Skills</h2>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>TensorFlow</li>
+        <li>PyTorch</li>
+        <li>OpenCV</li>
+        <li>Scikit-Learn</li>
+        <li>Matlab</li>
+        <li>MySQL</li>
+        <li>Point Cloud Library</li>
+      </ul>
     </div>
-    <div class="project-card">
-      <h3>Predictive Maintenance using Machine Learning</h3>
-      <p>Designed a predictive maintenance model to detect industrial machine failures using Python, Scikit-Learn, Pandas, and NumPy.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>AI-Powered Image Recognition System</h3>
+        <p>
+          Developed a CNN-based image classification system using Python, TensorFlow, OpenCV, and Flask.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Predictive Maintenance using Machine Learning</h3>
+        <p>
+          Designed a predictive maintenance model to detect industrial machine failures using Python, Scikit-Learn, Pandas, and NumPy.
+        </p>
+      </div>
     </div>
   </section>
 
-  <section id="certifications" class="section fade-in">
-    <h2>Certifications</h2>
-    <ul>
-      <li>Introduction to Machine Learning (NPTEL) - August 2024</li>
-      <li>Introduction to Machine Learning by Andrew Ng (Coursera) - October 2024</li>
-      <li>100 Days of Code: The Complete Python Pro Bootcamp (Udemy) - January 2025</li>
-    </ul>
+  <!-- Certifications Section -->
+  <section id="certifications" class="section bg-light">
+    <div class="container">
+      <h2>My Certifications</h2>
+      <ul>
+        <li>Introduction to Machine Learning (NPTEL) - August 2024</li>
+        <li>Introduction to Machine Learning by Andrew Ng (Coursera) - October 2024</li>
+        <li>100 Days of Code: The Complete Python Pro Bootcamp (Udemy) - January 2025</li>
+      </ul>
+    </div>
   </section>
 
-  <section id="achievements" class="section fade-in">
-    <h2>Achievements</h2>
-    <ul>
-      <li>Global Rank 811 in Kaggle ML Competition (Dec 2024)</li>
-      <li>Top 9911 global rank on Google Colab Platform</li>
-      <li>Published a research paper on NLP in IEEE Journal</li>
-    </ul>
+  <!-- Achievements Section -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Global Rank 811 in Kaggle ML Competition (Dec 2024)</li>
+        <li>Top 9911 global rank on Google Colab Platform</li>
+        <li>Published a research paper on NLP in IEEE Journal</li>
+      </ul>
+    </div>
   </section>
 
-  <section id="education" class="section fade-in">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>Lovely Professional University</strong> - B.Tech CSE, CGPA: 8.00 (Since August 2022)</li>
-      <li><strong>SP Smart School</strong> - Intermediate, 73% (2020–2022)</li>
-      <li><strong>DPS Karkyal</strong> - Matriculation, 81% (2018–2020)</li>
-    </ul>
+  <!-- Education Section -->
+  <section id="education" class="section bg-light">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="education-entry">
+        <h3>Lovely Professional University</h3>
+        <p>B.Tech CSE, CGPA: 8.00 (Since August 2022)</p>
+      </div>
+      <div class="education-entry">
+        <h3>SP Smart School</h3>
+        <p>Intermediate, 73% (2020–2022)</p>
+      </div>
+      <div class="education-entry">
+        <h3>DPS Karkyal</h3>
+        <p>Matriculation, 81% (2018–2020)</p>
+      </div>
+    </div>
   </section>
 
-  <section id="contact" class="section fade-in">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:heerarudransh@gmail.com">heerarudransh@gmail.com</a></p>
-    <p><a href="https://www.linkedin.com/in/rudranshheera" target="_blank">LinkedIn</a> | <a href="https://github.com/Rudransh2k" target="_blank">GitHub</a></p>
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <p>Email: <a href="mailto:heerarudransh@gmail.com">heerarudransh@gmail.com</a></p>
+      <p>
+        <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/rudransh2k" target="_blank">GitHub</a>
+      </p>
+    </div>
   </section>
 
-</main>
-
-<footer>
-  <p>© 2025 Rudransh Raj Heera. All rights reserved.</p>
-</footer>
-
-<button id="scrollTopBtn">↑</button>
-
-<script src="script.js"></script>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Rudransh Raj Heera. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
